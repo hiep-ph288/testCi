@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+#icon{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+#humanlogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.new{
+    border-top: 0.5px solid white;
+}
+.menu{
+    margin-top: 20px;
+}
+#dicks{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.sector{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.word{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 40px;
+}
+.leftbar{
+    background-color: rgba(30, 23, 34, 0.788);
+    padding-bottom: 120%;
+    box-shadow: 10px 10px 10px -7px;
+}
+.rightbar{
+    /* display: flex; */
+}
+
+#menusvglogo{
+    width: 40px;
+    height: 40px;
+}
+.menu-section{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.menu-word{
+    margin-left: 10px;
+}
+.input-nav{
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border: none;
+    outline: none;
+}
+.search-nav{
+    width: 28px;
+    height: 28px;
+    margin-left: 5px;
+}
+.my-dang-search{
+    border: 1px solid black;
+    margin-left: 250px;
+}
+.mail-icon{
+    width: 40px;
+    height: 40px;
+}
+.my-mail{
+    margin-left: 15px;
+}
+.dot{
+    background-color: red;
+    border-radius: 90%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 18px;
+    margin-left: 34px;
+}
+.another-humanlogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.admin{
+    margin-left: 10px;
+    color: cornflowerblue;
+}
+
+.middle{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middleend{
+   position: absolute;
+   right: 50px;
+
+}
+
+.middlestart{
+   position: absolute;
+   left: 600px;
+}
+.finally{
+    margin-top: 100px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    position: absolute;
+   left: 600px;
+ 
+}
+.not-btn{
+    position: absolute;
+    right: 50px;
+    border: 1px solid black;
+}
+.baby{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(10, 173, 248);
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.not-baby{
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border: none;
+    outline: none;
+    
+}
+.search-nav-baby{
+    width: 28px;
+    height: 28px;
+    margin-left: 5px;
+}
