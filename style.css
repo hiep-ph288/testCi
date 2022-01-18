@@ -121,6 +121,10 @@
    position: absolute;
    left: 600px;
 }
+
+.middlestart h2{
+    text-transform: uppercase;
+}
 .finally{
     margin-top: 100px;
     margin-left: 40px;
